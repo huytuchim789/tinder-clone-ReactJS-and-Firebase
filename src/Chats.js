@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Chat from "./Chat";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Chat from './Chat'
 
 function Chats(props) {
   return (
@@ -13,7 +13,7 @@ function Chats(props) {
       ></Chat>
       <Chat
         name="Eleen"
-        message="Fuck you"
+        message="helu"
         timestamp="20 seconds"
         profilePic="https://thumbs.dreamstime.com/b/professional-photo-session-beautiful-sexy-european-woman-desert-197434165.jpg"
       ></Chat>
@@ -30,7 +30,7 @@ function Chats(props) {
         profilePic="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg"
       ></Chat>
     </div>
-  );
+  )
 }
 
-export default Chats;
+export default Chats
